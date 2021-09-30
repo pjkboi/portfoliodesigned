@@ -27,31 +27,6 @@ img {
   color: white;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #9d3fc2;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  background-color: #AA47D1;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,8 +57,7 @@ header ul a {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#AA47D1), to(#47D1AA));
-  background-image: linear-gradient(#AA47D1, #47D1AA);
+  background: #AA47D1;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -92,8 +66,7 @@ header ul a {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#47D1AA), to(#AA47D1));
-  background-image: linear-gradient(#47D1AA, #AA47D1);
+  background: #47D1AA;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -163,6 +136,10 @@ section {
   text-align: center;
   z-index: 1;
   background: white;
+}
+
+section h2 {
+  color: white;
 }
 
 .featured {
